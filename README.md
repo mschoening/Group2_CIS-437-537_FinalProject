@@ -212,6 +212,11 @@ The following are an assortment of results tested at different network loads und
 
 ![preview](Results/Used_In_readme/Misc/Additional_Group1.png)
 
+<br>
+<br>
+<br>
+<br>
+
 # Test Group 2 Results
 
 Comparison to the figures shown in the original paper. Originals shown on the left, our results shown on the right.
@@ -389,35 +394,35 @@ Several practical lessons emerged from this replication effort that may be usefu
 # Contributions
 List of files we modified or added to the original work in order to reproduce the results. 
 
-* Within the [ns-3.19 folder](working_folder\ns-allinone-3.19\ns-3.19): 
-> [autorun.sh](working_folder\ns-allinone-3.19\ns-3.19\autorun.sh) : This is a mostly stock version of the original autorun script included in the original repository. The only modifications made to it was to remove the sections that enabled testing with Conga. 
+* Within the [ns-3.19 folder](working_folder/ns-allinone-3.19/ns-3.19):  
+> [autorun.sh](working_folder/ns-allinone-3.19/ns-3.19/autorun.sh): This is a mostly stock version of the original autorun script included in the original repository. The only modifications made to it was to remove the sections that enabled testing with Conga.  
 
->[Timed_autorun.sh](working_folder\ns-allinone-3.19\ns-3.19\Timed_Autorun.sh): This is another modification from the original autorun script that stops all the simulations after 2 hours. This was made to facilitate the group 2 testing we did. 
+> [Timed_autorun.sh](working_folder/ns-allinone-3.19/ns-3.19/Timed_Autorun.sh): This is another modification from the original autorun script that stops all the simulations after 2 hours. This was made to facilitate the group 2 testing we did.  
 
->[autorun_final.sh](working_folder\ns-allinone-3.19\ns-3.19\autorun_final.sh): This was another script that was made with the idea to allow us to see when each simulation gets completed as the original does not support this. This was made early on in the process and it removes the ability to run all the simulations in parallel. It runs each simulation individually and lets the user know once each one has completed. This was only used for a few of our data points as it greatly increases the time to complete all the simulations. Only generates a graph in PDF form. 
+> [autorun_final.sh](working_folder/ns-allinone-3.19/ns-3.19/autorun_final.sh): This was another script that was made with the idea to allow us to see when each simulation gets completed as the original does not support this. This was made early on in the process and it removes the ability to run all the simulations in parallel. It runs each simulation individually and lets the user know once each one has completed. This was only used for a few of our data points as it greatly increases the time to complete all the simulations. Only generates a graph in PDF form.  
 
-* Within the [analysis folder](working_folder\ns-allinone-3.19\ns-3.19\analysis):
+* Within the [analysis folder](working_folder/ns-allinone-3.19/ns-3.19/analysis):  
 
->[plot_fct.py](working_folder\ns-allinone-3.19\ns-3.19\analysis\plot_fct.py): This is mostly an unchanged version of the script found in the original repository. Only changes made to this was the removal of Conga and Drill from the graph. This was only used briefly when we started and it generates graphs in PDF form. 
+> [plot_fct.py](working_folder/ns-allinone-3.19/ns-3.19/analysis/plot_fct.py): This is mostly an unchanged version of the script found in the original repository. Only changes made to this was the removal of Conga and Drill from the graph. This was only used briefly when we started and it generates graphs in PDF form.  
 
->[plot.py](working_folder\ns-allinone-3.19\ns-3.19\analysis\plot.py): This is the same as the previous plot_fct.py but with changes to fix the x axis in order to make the graphs look similar to the graphs found in the original paper. The axis is fixed to 1.8k, 3.5k, 4.6k, 5.5k, 6.3k, 7.2k, 8.6k, 16k, 21k, and 2.0M bytes in order to match the original graphs. This was mainly used for all the additional data we gathered in the first group of tests. Only generates graphs in PDF form. 
+> [plot.py](working_folder/ns-allinone-3.19/ns-3.19/analysis/plot.py): This is the same as the previous plot_fct.py but with changes to fix the x axis in order to make the graphs look similar to the graphs found in the original paper. The axis is fixed to 1.8k, 3.5k, 4.6k, 5.5k, 6.3k, 7.2k, 8.6k, 16k, 21k, and 2.0M bytes in order to match the original graphs. This was mainly used for all the additional data we gathered in the first group of tests. Only generates graphs in PDF form.  
 
->[pTable.py](working_folder\ns-allinone-3.19\ns-3.19\analysis\pTable.py): This is a modificatinon of the previous scripts but adds an additional table with numbers on each of the measured flow sizes. This was used in the first group of tests to gather more detailed data when trying to replicate the original results from the paper. Only generates a pdf containing a graph and a table with detailed numbers. 
+> [pTable.py](working_folder/ns-allinone-3.19/ns-3.19/analysis/pTable.py): This is a modification of the previous scripts but adds an additional table with numbers on each of the measured flow sizes. This was used in the first group of tests to gather more detailed data when trying to replicate the original results from the paper. Only generates a PDF containing a graph and a table with detailed numbers.  
 
->[NpTable.py](working_folder\ns-allinone-3.19\ns-3.19\analysis\NpTable.py): This is a further modification of the pTable.py script and it was made to facilitate easier data gathering while conducting the group 2 tests. The changes made to it allow it to export the generated table to CSV format while additionally generating an image that matches the PDF file for ease of use in reports. Running this script once generates a total of 12 different PDF, CSV, and PNG files of the various graphs and tables.  
+> [NpTable.py](working_folder/ns-allinone-3.19/ns-3.19/analysis/NpTable.py): This is a further modification of the pTable.py script and it was made to facilitate easier data gathering while conducting the group 2 tests. The changes made to it allow it to export the generated table to CSV format while additionally generating an image that matches the PDF file for ease of use in reports. Running this script once generates a total of 12 different PDF, CSV, and PNG files of the various graphs and tables.  
 
-* Within the [Results folder](Results) - Notable files/folders include:
+* Within the [Results folder](Results):  
 
->[80pct_50pct_Load_WithTables_First_Data_Run folder](Results\80pct_50pct_Load_WithTables_First_Data_Run): This includes all of the generated PDFs for the first group of tests on the original figures found in the paper. They include tests at 50 percent and 80 percent traffic load at 0.1 seconds of traffic generation. 
+> [80pct_50pct_Load_WithTables_First_Data_Run folder](Results/80pct_50pct_Load_WithTables_First_Data_Run): This includes all of the generated PDFs for the first group of tests on the original figures found in the paper. They include tests at 50 percent and 80 percent traffic load at 0.1 seconds of traffic generation.  
 
->[Group1_Additional_Data Folder](Results\Group1_Additional_Data): This is the additional data gathered for the first group of tests. It has tests from 10 percent to 100 percent network load and is divided into traffic generation times of 0.1 seconds and 0.5 seconds. Only PDF graphs are included here as we did not have time to do the extra analysis on all of these. 
+> [Group1_Additional_Data Folder](Results/Group1_Additional_Data): This is the additional data gathered for the first group of tests. It has tests from 10 percent to 100 percent network load and is divided into traffic generation times of 0.1 seconds and 0.5 seconds. Only PDF graphs are included here as we did not have time to do the extra analysis on all of these.  
 
->[Group2_All_Data](Results\Group2_All_Data): This is all the data for the testing done for group 2. It contains every test from 10 percent to 100 percent network load and is split up into groups by the two traffic generation times we tested. It contains over 200 files of varying types such as PDFs, CSVs, and PNGs.  
+> [Group2_All_Data](Results/Group2_All_Data): This is all the data for the testing done for group 2. It contains every test from 10 percent to 100 percent network load and is split up into groups by the two traffic generation times we tested. It contains over 200 files of varying types such as PDFs, CSVs, and PNGs.  
 
->[Used_In_readme](Results\Used_In_readme): This just contains images of the results we used in this readme sorted for easy reference. 
+> [Used_In_readme](Results/Used_In_readme): This just contains images of the results we used in this readme sorted for easy reference.  
 
->[TestGroup1_Pct_Error spreadsheet](Results\Pct_Error_Spreadsheets\TestGroup1_Pct_Error.xlsx) : The spreadsheet used to calculate the percent error analysis on the original figures our group was trying to replicate. This is testing from the first group so it only includes the data from the 50 percent and 80 percent tests at 0.1 seconds of traffic generation. 
+> [TestGroup1_Pct_Error spreadsheet](Results/Pct_Error_Spreadsheets/TestGroup1_Pct_Error.xlsx): The spreadsheet used to calculate the percent error analysis on the original figures our group was trying to replicate. This is testing from the first group so it only includes the data from the 50 percent and 80 percent tests at 0.1 seconds of traffic generation.  
 
->[TestGroup2_Pct_Error spreadsheet](Results\Pct_Error_Spreadsheets\TestGroup2_Pct_Error.xlsx): The spreadsheet used to conduct the percent error analysis for group 2 of testing. It includes caluclations for the original figures as well as the additional figures generated from 10 percent to 100 percent network loads and split up by traffic generation times of 0.1 seconds and 0.5 seconds. 
+> [TestGroup2_Pct_Error spreadsheet](Results/Pct_Error_Spreadsheets/TestGroup2_Pct_Error.xlsx): The spreadsheet used to conduct the percent error analysis for group 2 of testing. It includes calculations for the original figures as well as the additional figures generated from 10 percent to 100 percent network loads and split up by traffic generation times of 0.1 seconds and 0.5 seconds.  
 
->[old_data folder](Results\old_data): Folder containing any old data that was generated before the first test group. None of this data is used in any of the analysis sections. 
+> [old_data folder](Results/old_data): Folder containing any old data that was generated before the first test group. None of this data is used in any of the analysis sections.
