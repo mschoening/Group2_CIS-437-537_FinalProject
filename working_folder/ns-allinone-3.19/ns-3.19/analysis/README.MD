@@ -1,7 +1,5 @@
 This folder contains all of the scripts used to generate data from the simulations. All of the scripts here output their results to the figures folder.
 
-Note: none of the links here will work as this is just copied over to the contributions folder. Navigate to the actual folder where this is loacated as README.MD to see the context and to make the links work. 
-
 **Files our group added/edited include:**
 
 >[plot_fct.py](plot_fct.py): This is mostly an unchanged version of the script found in the original repository. Only changes made to this was the removal of Conga and Drill from the graph. This was only used briefly when we started and it generates graphs in PDF form. 
