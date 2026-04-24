@@ -44,7 +44,13 @@ We chose to replicate these results as they show that conweave demonstrates a me
 
 The original paper measured all their results in a metric they call Flow Completion Time Slow-Down or FCT Slow-down. Breaking this down, Flow Completion Time (FCT) is the amount of time it takes to complete a flow and is measured using queue completion events that are tracked within the virtualized testing environment. Elaborating further, FCT Slow-Down is explained as the time it takes to complete a flow through various network loads (ex.: 50%, 80%, ect.), normalized by the time it would take to complete the same flow when the network has no other traffic. For their testing, the original authors conducted tests to measure the average and the 99-percentile (p99) or the worst 1% of the flow completion times.
 
-The authors ran their simulations inside a virtualized leaf-spine network topology consisting of 8 leaf switches, 8 spine switches, and 16 hosts per leaf switch, giving a total of 128 end hosts. All links ran at 100 Gbps with a 1 microsecond propagation delay. Traffic was generated using a Web Search distribution and injected at two different network load levels: 50% and 80%. Each simulation run lasted 0.1 seconds of simulated time.
+The authors ran their simulations inside a virtualized leaf-spine network topology consisting of 8 leaf switches, 8 spine switches, and 16 hosts per leaf switch, giving a total of 128 end hosts. All links ran at 100 Gbps with a 1 microsecond propagation delay. 
+
+![preview](Results/Used_In_readme/Misc/Topology.png)
+Image of Virtualized Topology
+<br>
+<br>
+Traffic was generated using a Web Search distribution and injected at two different network load levels: 50% and 80%. Each simulation run lasted 0.1 seconds of simulated time.
 
 They tested under two different RDMA transport configurations: Lossless RDMA, which uses Priority Flow Control (PFC) to prevent packet drops, and IRN RDMA, which handles packet reordering in-network without relying on PFC. Across both configurations, they compared four load balancing algorithms: ECMP, Conga, LetFlow, and their proposed ConWeave algorithm.
 
@@ -287,7 +293,7 @@ Comparison to the figures shown in the original paper. Originals shown on the le
 <br>
 
 # Analysis  
-***Here is the percent error analysis we conducted on the second group of test data. More results for additional data outside of the original paper tests can be found in the Results folder and in the TestGroup2_Pct_Error spreadsheet we used to calculate them located here:*** Results\Pct_Error_Spreadsheets\TestGroup2_Pct_Error.xlsx
+***Here is the percent error analysis we conducted on the second group of test data. More results for additional data outside of the original paper tests can be found in the Results folder and in the TestGroup2_Pct_Error spreadsheet we used to calculate them located here:*** [TestGroup2_Pct_Error spreadsheet](Results/Pct_Error_Spreadsheets/TestGroup2_Pct_Error.xlsx)
 
 ### **50% Network Load, Lossless RDMA**
 
