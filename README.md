@@ -103,56 +103,56 @@ Comparison to the figures shown in the original paper. Originals shown on the le
 
 **Average FCT Slowdown, 50% Average Load Using Lossless RDMA**
 <div style="display:flex; justify-content:center; gap:20px;">
-  <img src="Results/Used_In_readme/Original_Paper/Avg_50Pct_Lossless.png" width="530">
+  <img src="Results/Used_In_readme/Original_Paper/Avg_50Pct_Lossless.png" width="400">
   <img src="Results/Used_In_readme/Group1_Data/Avg_50_Lossless.png" width="400">
 </div>
 
 
 **P99 FCT Slowdown, 50% Average Load Using Lossless RDMA**
 <div style="display:flex; justify-content:center; gap:20px;">
-  <img src="Results/Used_In_readme/Original_Paper/P99_50Pct_Lossless.png" width="530">
+  <img src="Results/Used_In_readme/Original_Paper/P99_50Pct_Lossless.png" width="400">
   <img src="Results/Used_In_readme/Group1_Data/P99_50_Lossless.png" width="400">
 </div>
 
 
 **Average FCT Slowdown, 80% Average Load Using Lossless RDMA**
 <div style="display:flex; justify-content:center; gap:20px;">
-  <img src="Results/Used_In_readme/Original_Paper/Avg_80Pct_Lossless.png" width="530">
+  <img src="Results/Used_In_readme/Original_Paper/Avg_80Pct_Lossless.png" width="400">
   <img src="Results/Used_In_readme/Group1_Data/Avg_80_Lossless.png" width="400">
 </div>
 
 
 **P99 FCT Slowdown, 80% Average Load Using Lossless RDMA**
 <div style="display:flex; justify-content:center; gap:20px;">
-  <img src="Results/Used_In_readme/Original_Paper/P99_80Pct_Lossless.png" width="530">
+  <img src="Results/Used_In_readme/Original_Paper/P99_80Pct_Lossless.png" width="400">
   <img src="Results/Used_In_readme/Group1_Data/P99_80_Lossless.png" width="400">
 </div>
 
 
 **Average FCT Slowdown, 50% Average Load Using IRN RDMA**
 <div style="display:flex; justify-content:center; gap:20px;">
-  <img src="Results/Used_In_readme/Original_Paper/Avg_50Pct_IRN.png" width="530">
+  <img src="Results/Used_In_readme/Original_Paper/Avg_50Pct_IRN.png" width="400">
   <img src="Results/Used_In_readme/Group1_Data/Avg_50_IRN.png" width="400">
 </div>
 
 
 **P99 FCT Slowdown, 50% Average Load Using IRN RDMA**
 <div style="display:flex; justify-content:center; gap:20px;">
-  <img src="Results/Used_In_readme/Original_Paper/P99_50Pct_IRN.png" width="530">
+  <img src="Results/Used_In_readme/Original_Paper/P99_50Pct_IRN.png" width="400">
   <img src="Results/Used_In_readme/Group1_Data/P99_50_IRN.png" width="400">
 </div>
 
 
 **Average FCT Slowdown, 80% Average Load Using IRN RDMA**
 <div style="display:flex; justify-content:center; gap:20px;">
-  <img src="Results/Used_In_readme/Original_Paper/Avg_80Pct_IRN.png" width="530">
+  <img src="Results/Used_In_readme/Original_Paper/Avg_80Pct_IRN.png" width="400">
   <img src="Results/Used_In_readme/Group1_Data/Avg_80_IRN.png" width="400">
 </div>
 
 
 **P99 FCT Slowdown, 80% Average Load Using IRN RDMA**
 <div style="display:flex; justify-content:center; gap:20px;">
-  <img src="Results/Used_In_readme/Original_Paper/P99_80Pct_IRN.png" width="530">
+  <img src="Results/Used_In_readme/Original_Paper/P99_80Pct_IRN.png" width="400">
   <img src="Results/Used_In_readme/Group1_Data/P99_80_IRN.png" width="400">
 </div>
 
@@ -199,56 +199,56 @@ Comparison to the figures shown in the original paper. Originals shown on the le
 
 **Average FCT Slowdown, 50% Average Load Using Lossless RDMA**
 <div style="display:flex; justify-content:center; gap:20px;">
-  <img src="Results/Used_In_readme/Original_Paper/Avg_50Pct_Lossless.png" width="530">
+  <img src="Results/Used_In_readme/Original_Paper/Avg_50Pct_Lossless.png" width="400">
   <img src="Results/Used_In_readme/50/AVG_TOPO_leaf_spine_128_100G_OS2_LOAD_50_FC_Lossless.png" width="400">
 </div>
 
 
 **P99 FCT Slowdown, 50% Average Load Using Lossless RDMA**
 <div style="display:flex; justify-content:center; gap:20px;">
-  <img src="Results/Used_In_readme/Original_Paper/P99_50Pct_Lossless.png" width="530">
+  <img src="Results/Used_In_readme/Original_Paper/P99_50Pct_Lossless.png" width="400">
   <img src="Results/Used_In_readme/50/P99_TOPO_leaf_spine_128_100G_OS2_LOAD_50_FC_Lossless.png" width="400">
 </div>
 
 
 **Average FCT Slowdown, 80% Average Load Using Lossless RDMA**
 <div style="display:flex; justify-content:center; gap:20px;">
-  <img src="Results/Used_In_readme/Original_Paper/Avg_80Pct_Lossless.png" width="530">
+  <img src="Results/Used_In_readme/Original_Paper/Avg_80Pct_Lossless.png" width="400">
   <img src="Results/Used_In_readme/80/AVG_TOPO_leaf_spine_128_100G_OS2_LOAD_80_FC_Lossless.png" width="400">
 </div>
 
 
 **P99 FCT Slowdown, 80% Average Load Using Lossless RDMA**
 <div style="display:flex; justify-content:center; gap:20px;">
-  <img src="Results/Used_In_readme/Original_Paper/P99_80Pct_Lossless.png" width="530">
+  <img src="Results/Used_In_readme/Original_Paper/P99_80Pct_Lossless.png" width="400">
   <img src="Results/Used_In_readme/80/P99_TOPO_leaf_spine_128_100G_OS2_LOAD_80_FC_Lossless.png" width="400">
 </div>
 
 
 **Average FCT Slowdown, 50% Average Load Using IRN RDMA**
 <div style="display:flex; justify-content:center; gap:20px;">
-  <img src="Results/Used_In_readme/Original_Paper/Avg_50Pct_IRN.png" width="530">
+  <img src="Results/Used_In_readme/Original_Paper/Avg_50Pct_IRN.png" width="400">
   <img src="Results/Used_In_readme/50/AVG_TOPO_leaf_spine_128_100G_OS2_LOAD_50_FC_IRN.png" width="400">
 </div>
 
 
 **P99 FCT Slowdown, 50% Average Load Using IRN RDMA**
 <div style="display:flex; justify-content:center; gap:20px;">
-  <img src="Results/Used_In_readme/Original_Paper/P99_50Pct_IRN.png" width="530">
+  <img src="Results/Used_In_readme/Original_Paper/P99_50Pct_IRN.png" width="400">
   <img src="Results/Used_In_readme/50/P99_TOPO_leaf_spine_128_100G_OS2_LOAD_50_FC_IRN.png" width="400">
 </div>
 
 
 **Average FCT Slowdown, 80% Average Load Using IRN RDMA**
 <div style="display:flex; justify-content:center; gap:20px;">
-  <img src="Results/Used_In_readme/Original_Paper/Avg_80Pct_IRN.png" width="530">
+  <img src="Results/Used_In_readme/Original_Paper/Avg_80Pct_IRN.png" width="400">
   <img src="Results/Used_In_readme/80/AVG_TOPO_leaf_spine_128_100G_OS2_LOAD_80_FC_IRN.png" width="400">
 </div>
 
 
 **P99 FCT Slowdown, 80% Average Load Using IRN RDMA**
 <div style="display:flex; justify-content:center; gap:20px;">
-  <img src="Results/Used_In_readme/Original_Paper/P99_80Pct_IRN.png" width="530">
+  <img src="Results/Used_In_readme/Original_Paper/P99_80Pct_IRN.png" width="400">
   <img src="Results/Used_In_readme/80/P99_TOPO_leaf_spine_128_100G_OS2_LOAD_80_FC_IRN.png" width="400">
 </div>
 
