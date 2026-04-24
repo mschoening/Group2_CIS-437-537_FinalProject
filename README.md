@@ -411,7 +411,7 @@ List of files we modified or added to the original work in order to reproduce th
 
 > [NpTable.py](working_folder/ns-allinone-3.19/ns-3.19/analysis/NpTable.py): This is a further modification of the pTable.py script and it was made to facilitate easier data gathering while conducting the group 2 tests. The changes made to it allow it to export the generated table to CSV format while additionally generating an image that matches the PDF file for ease of use in reports. Running this script once generates a total of 12 different PDF, CSV, and PNG files of the various graphs and tables.  
 
-* Within the [Results folder](Results):  
+* Within the [Results folder](Results) - Notable files/folders include:  
 
 > [80pct_50pct_Load_WithTables_First_Data_Run folder](Results/80pct_50pct_Load_WithTables_First_Data_Run): This includes all of the generated PDFs for the first group of tests on the original figures found in the paper. They include tests at 50 percent and 80 percent traffic load at 0.1 seconds of traffic generation.  
 
