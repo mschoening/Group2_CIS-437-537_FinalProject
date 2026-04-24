@@ -1,5 +1,7 @@
 The folder ns-allinone-3.19 is the working folder we used to run all the simulations. It is a copy of the original github the authors created with some modifications to better suit our needs. 
 
+Note: none of the links here will work as this is just copied over to the contributions folder. Navigate to the actual folder where this is loacated as README.MD to see the context and to make the links work.
+
 
 **Files we changed or added to this folder include:**
 
