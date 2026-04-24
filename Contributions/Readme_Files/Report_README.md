@@ -1,3 +1,5 @@
+Note: none of the links here will work as this is just copied over to the contributions folder. Navigate to the actual folder where this is loacated as README.MD to see the context and to make the links work. 
+
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -352,7 +354,7 @@ List of files we modified or added to the original work in order to reproduce th
 
 * Within the [Results folder](Results) - Notable files/folders include:
 
->[80pct_50pct_Load_WithTables_First_Data_Run folder](Results\80pct_50pct_Load_WithTables_First_Data_Run): This includes all of the generated PDFs for the first group of tests on the original figures found in the paper. They include tests at 50 percent and 80 percent traffic load at 0.1 seconds of traffic generation. 
+>[Results\80pct_50pct_Load_WithTables_First_Data_Run folder](Results\80pct_50pct_Load_WithTables_First_Data_Run): This includes all of the generated PDFs for the first group of tests on the original figures found in the paper. They include tests at 50 percent and 80 percent traffic load at 0.1 seconds of traffic generation. 
 
 >[Group1_Additional_Data Folder](Results\Group1_Additional_Data): This is the additional data gathered for the first group of tests. It has tests from 10 percent to 100 percent network load and is divided into traffic generation times of 0.1 seconds and 0.5 seconds. Only PDF graphs are included here as we did not have time to do the extra analysis on all of these. 
 
