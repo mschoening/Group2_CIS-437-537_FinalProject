@@ -214,7 +214,7 @@ For 80% network load using IRN RDMA, our group saw a Minimum 46% improvement in 
 
 ### **Additional results from outside the original tests:**
 
-The following are an assortment of results tested at different network loads under 0.02, 0.1, and 0.5 seconds of traffic generation time. While these aren\'t all the results we tested, they show that ConWeave is generally better than the other algorithms tested. Additional results can be found here (include path to results here)
+The following are an assortment of results tested at different network loads under 0.02, 0.1, and 0.5 seconds of traffic generation time. While these aren\'t all the results we tested, they show that ConWeave is generally better than the other algorithms tested. Additional results can be found in the [Results Folder](Results)
 
 ![preview](Results/Used_In_readme/Misc/Additional_Group1.png)
 
@@ -293,7 +293,7 @@ Comparison to the figures shown in the original paper. Originals shown on the le
 <br>
 
 # Analysis  
-***Here is the percent error analysis we conducted on the second group of test data. More results for additional data outside of the original paper tests can be found in the Results folder and in the TestGroup2_Pct_Error spreadsheet we used to calculate them located here:*** [TestGroup2_Pct_Error spreadsheet](Results/Pct_Error_Spreadsheets/TestGroup2_Pct_Error.xlsx)
+***Here is the percent error analysis we conducted on the second group of test data. More results for additional data outside of the original paper tests can be found in the [Results folder](Results) and in the TestGroup2_Pct_Error spreadsheet we used to calculate them located here:*** [TestGroup2_Pct_Error spreadsheet](Results/Pct_Error_Spreadsheets/TestGroup2_Pct_Error.xlsx)
 
 ### **50% Network Load, Lossless RDMA**
 
@@ -357,7 +357,7 @@ The results are similar when comparing different traffic generation times too. W
 
 # Additional results from outside the original tests
 
-Like the first group of tests, we also conducted additional simulations on network loads from 10% all the way to 100% with traffic generation times of 0.1 and 0.5 seconds. This is just a couple of the results but they show the same similar pattern to the original tests where ConWeave generally performs better than the other algorithms tested. More results can be found in the Results folder.
+Like the first group of tests, we also conducted additional simulations on network loads from 10% all the way to 100% with traffic generation times of 0.1 and 0.5 seconds. This is just a couple of the results but they show the same similar pattern to the original tests where ConWeave generally performs better than the other algorithms tested. More results can be found in the [Results folder](Results).
 
 ![preview](Results/Used_In_readme/Misc/Additional_Group2.png)
 <br>
