@@ -197,11 +197,13 @@ The following are an assortment of results tested at different network loads und
 Comparison to the figures shown in the original paper. Originals shown on the left, our results shown on the right.
 
 
-**Average FCT Slowdown, 50% Average Load Using Lossless RDMA**
+##### **Average FCT Slowdown, 50% Average Load Using Lossless RDMA**
 <div style="display:flex; justify-content:center; gap:20px;">
   <img src="Results/Used_In_readme/Original_Paper/Avg_50Pct_Lossless.png" width="400">
   <img src="Results/Used_In_readme/50/AVG_TOPO_leaf_spine_128_100G_OS2_LOAD_50_FC_Lossless.png" width="400">
 </div>
+
+
 
 
 **P99 FCT Slowdown, 50% Average Load Using Lossless RDMA**
