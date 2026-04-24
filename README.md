@@ -31,7 +31,7 @@ The paper\'s primary contribution is ConWeave, a novel in-network load balancing
 
 # Replication Target: FCT Slowdown Results for Lossless and IRN RDMA Simulations at Varying Network Loads
 
-![preview](Results\Used_In_readme\Original_Paper\All_Combined.png)
+![preview](Results/Used_In_readme/Original_Paper/All_Combined.png)
 
 The authors found the following results from their simulations:  
 **Lossless RDMA** - ConWeave achieves at least 23.3% avg and 45.8% p99 FCT improvement over baselines at 50% load
@@ -102,83 +102,87 @@ Comparison to the figures shown in the original paper. Originals shown on the le
 
 
 **Average FCT Slowdown, 50% Average Load Using Lossless RDMA**
-<p align="center">
+<div style="display:flex; justify-content:center; gap:20px;">
   <img src="Results/Used_In_readme/Original_Paper/Avg_50Pct_Lossless.png" width="530">
-  <img src="Results\Used_In_readme\Group1_Data\Avg_50_Lossless.png" width="400">
-</p>
+  <img src="Results/Used_In_readme/Group1_Data/Avg_50_Lossless.png" width="400">
+</div>
+
 
 **P99 FCT Slowdown, 50% Average Load Using Lossless RDMA**
-<p align="center">
-  <img src="Results\Used_In_readme\Original_Paper\P99_50Pct_Lossless.png" width="530">
-  <img src="Results\Used_In_readme\Group1_Data\P99_50_Lossless.png" width="400">
-</p>
+<div style="display:flex; justify-content:center; gap:20px;">
+  <img src="Results/Used_In_readme/Original_Paper/P99_50Pct_Lossless.png" width="530">
+  <img src="Results/Used_In_readme/Group1_Data/P99_50_Lossless.png" width="400">
+</div>
+
 
 **Average FCT Slowdown, 80% Average Load Using Lossless RDMA**
-<p align="center">
-  <img src="Results\Used_In_readme\Original_Paper\Avg_80Pct_Lossless.png" width="530">
-  <img src="Results\Used_In_readme\Group1_Data\Avg_80_Lossless.png" width="400">
-</p>
+<div style="display:flex; justify-content:center; gap:20px;">
+  <img src="Results/Used_In_readme/Original_Paper/Avg_80Pct_Lossless.png" width="530">
+  <img src="Results/Used_In_readme/Group1_Data/Avg_80_Lossless.png" width="400">
+</div>
+
 
 **P99 FCT Slowdown, 80% Average Load Using Lossless RDMA**
-<p align="center">
-  <img src="Results\Used_In_readme\Original_Paper\P99_80Pct_Lossless.png" width="530">
-  <img src="Results\Used_In_readme\Group1_Data\P99_80_Lossless.png" width="400">
-</p>
+<div style="display:flex; justify-content:center; gap:20px;">
+  <img src="Results/Used_In_readme/Original_Paper/P99_80Pct_Lossless.png" width="530">
+  <img src="Results/Used_In_readme/Group1_Data/P99_80_Lossless.png" width="400">
+</div>
 
 
 **Average FCT Slowdown, 50% Average Load Using IRN RDMA**
-<p align="center">
+<div style="display:flex; justify-content:center; gap:20px;">
   <img src="Results/Used_In_readme/Original_Paper/Avg_50Pct_IRN.png" width="530">
-  <img src="Results\Used_In_readme\Group1_Data\Avg_50_IRN.png" width="400">
-</p>
+  <img src="Results/Used_In_readme/Group1_Data/Avg_50_IRN.png" width="400">
+</div>
 
 
 **P99 FCT Slowdown, 50% Average Load Using IRN RDMA**
-<p align="center">
-  <img src="Results\Used_In_readme\Original_Paper\P99_50Pct_IRN.png" width="530">
-  <img src="Results\Used_In_readme\Group1_Data\P99_50_IRN.png" width="400">
-</p>
+<div style="display:flex; justify-content:center; gap:20px;">
+  <img src="Results/Used_In_readme/Original_Paper/P99_50Pct_IRN.png" width="530">
+  <img src="Results/Used_In_readme/Group1_Data/P99_50_IRN.png" width="400">
+</div>
 
 
 **Average FCT Slowdown, 80% Average Load Using IRN RDMA**
-<p align="center">
+<div style="display:flex; justify-content:center; gap:20px;">
   <img src="Results/Used_In_readme/Original_Paper/Avg_80Pct_IRN.png" width="530">
-  <img src="Results\Used_In_readme\Group1_Data\Avg_80_IRN.png" width="400">
-</p>
+  <img src="Results/Used_In_readme/Group1_Data/Avg_80_IRN.png" width="400">
+</div>
 
 
 **P99 FCT Slowdown, 80% Average Load Using IRN RDMA**
-<p align="center">
-  <img src="Results\Used_In_readme\Original_Paper\P99_80Pct_IRN.png" width="530">
-  <img src="Results\Used_In_readme\Group1_Data\P99_80_IRN.png" width="400">
-</p>
+<div style="display:flex; justify-content:center; gap:20px;">
+  <img src="Results/Used_In_readme/Original_Paper/P99_80Pct_IRN.png" width="530">
+  <img src="Results/Used_In_readme/Group1_Data/P99_80_IRN.png" width="400">
+</div>
 
 # Analysis
 
 **50% Network Load, Lossless RDMA**
-<p align="center">
-  <img src="Results\Used_In_readme\Group1_Analysis\50_Lossless.png" width="1000">
-</p>
+<div style="display:flex; justify-content:center;">
+  <img src="Results/Used_In_readme/Group1_Analysis/50_Lossless.png" width="1000">
+</div>
+
 For 50% network load using lossless RDMA, our group saw a Minimum 21% improvement in Avg FCT Slowdowns and 85% for P99 FCT Slowdowns. This is compared to the original paper minimums of 23.3% and 45.8% respectively.
 
 **80% Network Load, Lossless RDMA**
-<p align="center">
-  <img src="Results\Used_In_readme\Group1_Analysis\80_Lossless.png" width="1000">
-</p>
+<div style="display:flex; justify-content:center;">
+  <img src="Results/Used_In_readme/Group1_Analysis/80_Lossless.png" width="1000">
+</div>
 
 For 80% network load using lossless RDMA, our group saw a Minimum 83% improvement in Avg FCT Slowdowns and 159% for P99 FCT Slowdowns. This is compared to the original paper minimums of 17.6% and 35.8% respectively.
 
 **50% Network Load, IRN RDMA**
-<p align="center">
-  <img src="Results\Used_In_readme\Group1_Analysis\50_IRN.png" width="1000">
-</p>
+<div style="display:flex; justify-content:center;">
+  <img src="Results/Used_In_readme/Group1_Analysis/50_IRN.png" width="1000">
+</div>
 
 For 50% network load using IRN RDMA, our group saw a Minimum 8% improvement in Avg FCT Slowdowns and 45% for P99 FCT Slowdowns. This is compared to the original paper minimums of 12.7% and 46.2% respectively.
 
 **80% Network Load, IRN RDMA**
-<p align="center">
-  <img src="Results\Used_In_readme\Group1_Analysis\80_IRN.png" width="1000">
-</p>
+<div style="display:flex; justify-content:center;">
+  <img src="Results/Used_In_readme/Group1_Analysis/80_IRN.png" width="1000">
+</div>
 
 For 80% network load using IRN RDMA, our group saw a Minimum 46% improvement in Avg FCT Slowdowns and 134% for P99 FCT Slowdowns. This is compared to the original paper minimums of 42.3% and 66.8% respectively.
 
@@ -186,7 +190,7 @@ For 80% network load using IRN RDMA, our group saw a Minimum 46% improvement in 
 
 The following are an assortment of results tested at different network loads under 0.02, 0.1, and 0.5 seconds of traffic generation time. While these aren\'t all the results we tested, they show that ConWeave is generally better than the other algorithms tested. Additional results can be found here (include path to results here)
 
-![preview](Results\Used_In_readme\Misc\Additional_Group1.png)
+![preview](Results/Used_In_readme/Misc/Additional_Group1.png)
 
 # Test Group 2 Results
 
@@ -194,99 +198,103 @@ Comparison to the figures shown in the original paper. Originals shown on the le
 
 
 **Average FCT Slowdown, 50% Average Load Using Lossless RDMA**
-<p align="center">
+<div style="display:flex; justify-content:center; gap:20px;">
   <img src="Results/Used_In_readme/Original_Paper/Avg_50Pct_Lossless.png" width="530">
   <img src="Results/Used_In_readme/50/AVG_TOPO_leaf_spine_128_100G_OS2_LOAD_50_FC_Lossless.png" width="400">
-</p>
+</div>
+
 
 **P99 FCT Slowdown, 50% Average Load Using Lossless RDMA**
-<p align="center">
-  <img src="Results\Used_In_readme\Original_Paper\P99_50Pct_Lossless.png" width="530">
-  <img src="Results\Used_In_readme\50\P99_TOPO_leaf_spine_128_100G_OS2_LOAD_50_FC_Lossless.png" width="400">
-</p>
+<div style="display:flex; justify-content:center; gap:20px;">
+  <img src="Results/Used_In_readme/Original_Paper/P99_50Pct_Lossless.png" width="530">
+  <img src="Results/Used_In_readme/50/P99_TOPO_leaf_spine_128_100G_OS2_LOAD_50_FC_Lossless.png" width="400">
+</div>
+
 
 **Average FCT Slowdown, 80% Average Load Using Lossless RDMA**
-<p align="center">
-  <img src="Results\Used_In_readme\Original_Paper\Avg_80Pct_Lossless.png" width="530">
-  <img src="Results\Used_In_readme\80\AVG_TOPO_leaf_spine_128_100G_OS2_LOAD_80_FC_Lossless.png" width="400">
-</p>
+<div style="display:flex; justify-content:center; gap:20px;">
+  <img src="Results/Used_In_readme/Original_Paper/Avg_80Pct_Lossless.png" width="530">
+  <img src="Results/Used_In_readme/80/AVG_TOPO_leaf_spine_128_100G_OS2_LOAD_80_FC_Lossless.png" width="400">
+</div>
+
 
 **P99 FCT Slowdown, 80% Average Load Using Lossless RDMA**
-<p align="center">
-  <img src="Results\Used_In_readme\Original_Paper\P99_80Pct_Lossless.png" width="530">
-  <img src="Results\Used_In_readme\80\P99_TOPO_leaf_spine_128_100G_OS2_LOAD_80_FC_Lossless.png" width="400">
-</p>
+<div style="display:flex; justify-content:center; gap:20px;">
+  <img src="Results/Used_In_readme/Original_Paper/P99_80Pct_Lossless.png" width="530">
+  <img src="Results/Used_In_readme/80/P99_TOPO_leaf_spine_128_100G_OS2_LOAD_80_FC_Lossless.png" width="400">
+</div>
 
 
 **Average FCT Slowdown, 50% Average Load Using IRN RDMA**
-<p align="center">
+<div style="display:flex; justify-content:center; gap:20px;">
   <img src="Results/Used_In_readme/Original_Paper/Avg_50Pct_IRN.png" width="530">
-  <img src="Results\Used_In_readme\50\AVG_TOPO_leaf_spine_128_100G_OS2_LOAD_50_FC_IRN.png" width="400">
-</p>
+  <img src="Results/Used_In_readme/50/AVG_TOPO_leaf_spine_128_100G_OS2_LOAD_50_FC_IRN.png" width="400">
+</div>
 
 
 **P99 FCT Slowdown, 50% Average Load Using IRN RDMA**
-<p align="center">
-  <img src="Results\Used_In_readme\Original_Paper\P99_50Pct_IRN.png" width="530">
-  <img src="Results\Used_In_readme\50\P99_TOPO_leaf_spine_128_100G_OS2_LOAD_50_FC_IRN.png" width="400">
-</p>
+<div style="display:flex; justify-content:center; gap:20px;">
+  <img src="Results/Used_In_readme/Original_Paper/P99_50Pct_IRN.png" width="530">
+  <img src="Results/Used_In_readme/50/P99_TOPO_leaf_spine_128_100G_OS2_LOAD_50_FC_IRN.png" width="400">
+</div>
 
 
 **Average FCT Slowdown, 80% Average Load Using IRN RDMA**
-<p align="center">
+<div style="display:flex; justify-content:center; gap:20px;">
   <img src="Results/Used_In_readme/Original_Paper/Avg_80Pct_IRN.png" width="530">
-  <img src="Results\Used_In_readme\80\AVG_TOPO_leaf_spine_128_100G_OS2_LOAD_80_FC_IRN.png" width="400">
-</p>
+  <img src="Results/Used_In_readme/80/AVG_TOPO_leaf_spine_128_100G_OS2_LOAD_80_FC_IRN.png" width="400">
+</div>
 
 
 **P99 FCT Slowdown, 80% Average Load Using IRN RDMA**
-<p align="center">
-  <img src="Results\Used_In_readme\Original_Paper\P99_80Pct_IRN.png" width="530">
-  <img src="Results\Used_In_readme\80\P99_TOPO_leaf_spine_128_100G_OS2_LOAD_80_FC_IRN.png" width="400">
-</p>
+<div style="display:flex; justify-content:center; gap:20px;">
+  <img src="Results/Used_In_readme/Original_Paper/P99_80Pct_IRN.png" width="530">
+  <img src="Results/Used_In_readme/80/P99_TOPO_leaf_spine_128_100G_OS2_LOAD_80_FC_IRN.png" width="400">
+</div>
+
 
 # Analysis  
 ***Here is the percent error analysis we conducted on the second group of test data. More results for additional data outside of the original paper tests can be found in the Results folder and in the TestGroup2_Pct_Error spreadsheet we used to calculate them located here:*** Results\Pct_Error_Spreadsheets\TestGroup2_Pct_Error.xlsx
 
 **50% Network Load, Lossless RDMA**
 
-<p align="center">
-  <img src="Results\Used_In_readme\Group2_Analysis\Avg_50_Lossless.png" width="400">
-  <img src="Results\Used_In_readme\Group2_Analysis\P99_50_Lossless.png" width="400">
-</p>
+<div style="display:flex; justify-content:center; gap:20px;">
+  <img src="Results/Used_In_readme/Group2_Analysis/Avg_50_Lossless.png" width="400">
+  <img src="Results/Used_In_readme/Group2_Analysis/P99_50_Lossless.png" width="400">
+</div>
 
 For the second group of tests at 50% network load using lossless RDMA, our group saw a Minimum 21% improvement in Avg FCT Slowdowns and 84% for P99 FCT Slowdowns. This is compared to the original paper minimums of 23.3% and 45.8% respectively.
 
 **80% Network Load, Lossless RDMA**
 
-<p align="center">
-  <img src="Results\Used_In_readme\Group2_Analysis\Avg_80_Lossless.png" width="400">
-  <img src="Results\Used_In_readme\Group2_Analysis\P99_80_Lossless.png" width="400">
-</p>
+<div style="display:flex; justify-content:center; gap:20px;">
+  <img src="Results/Used_In_readme/Group2_Analysis/Avg_80_Lossless.png" width="400">
+  <img src="Results/Used_In_readme/Group2_Analysis/P99_80_Lossless.png" width="400">
+</div>
 
 For the second group of tests at 80% network load using lossless RDMA, our group saw a Minimum 116% improvement in Avg FCT Slowdowns and 248% for P99 FCT Slowdowns. This is compared to the original paper minimums of 17.6% and 35.8% respectively.
 
 **50% Network Load, IRN RDMA**
 
-<p align="center">
-  <img src="Results\Used_In_readme\Group2_Analysis\Avg_50_IRN.png" width="400">
-  <img src="Results\Used_In_readme\Group2_Analysis\P99_50_IRN.png" width="400">
-</p>
+<div style="display:flex; justify-content:center; gap:20px;">
+  <img src="Results/Used_In_readme/Group2_Analysis/Avg_50_IRN.png" width="400">
+  <img src="Results/Used_In_readme/Group2_Analysis/P99_50_IRN.png" width="400">
+</div>
 
 For the second group of tests at 50% network load using IRN RDMA, our group saw a Minimum 7% improvement in Avg FCT Slowdowns and 43% for P99 FCT Slowdowns. This is compared to the original paper minimums of 12.7% and 46.2% respectively.
 
 **80% Network Load, IRN RDMA**
 
-<p align="center">
-  <img src="Results\Used_In_readme\Group2_Analysis\Avg_80_IRN.png" width="400">
-  <img src="Results\Used_In_readme\Group2_Analysis\P99_80_IRN.png" width="400">
-</p>
+<div style="display:flex; justify-content:center; gap:20px;">
+  <img src="Results/Used_In_readme/Group2_Analysis/Avg_80_IRN.png" width="400">
+  <img src="Results/Used_In_readme/Group2_Analysis/P99_80_IRN.png" width="400">
+</div>
 
 For the second group of tests at 80% network load using IRN RDMA, our group saw a Minimum 50% improvement in Avg FCT Slowdowns and 136% for P99 FCT Slowdowns. This is compared to the original paper minimums of 42.3% and 66.8% respectively.
 
 # Comparison to Test group 1
 
-![preview](Results\Used_In_readme\Tables\Comparison_Group1_Group2.png)
+![preview](Results/Used_In_readme/Tables/Comparison_Group1_Group2.png)
 
 When compared to the first group of tests in the table seen above, the percent error analysis does not seem to differ too much from our original results. All the results highlighted in green cells are the ones that were similar to the original paper. Those results are similar across the board between Group 1 and Group 2. In contrast to this, the results where our data differed from the original paper had more variation between the two groups. Here, the highest minimum difference between the two groups was seen in the P99 80% network load test where the minimum of Group 2 was 89 percentage points higher than it was in Group 1 when testing Lossless RDMA.
 
@@ -294,13 +302,13 @@ When compared to the first group of tests in the table seen above, the percent e
 
 The results are similar when comparing different traffic generation times too. With all the results that mirrored the original paper being roughly similar to one another. The same situation is seen here where the only data that varied a lot was seen in the results that never matched the original paper.
 
-![preview](Results\Used_In_readme\Tables\Gen_Time_Compairson.png)
+![preview](Results/Used_In_readme/Tables/Gen_Time_Compairson.png)
 
 # Additional results from outside the original tests
 
 Like the first group of tests, we also conducted additional simulations on network loads from 10% all the way to 100% with traffic generation times of 0.1 and 0.5 seconds. This is just a couple of the results but they show the same similar pattern to the original tests where ConWeave generally performs better than the other algorithms tested. More results can be found in the Results folder.
 
-![preview](Results\Used_In_readme\Misc\Additional_Group2.png)
+![preview](Results/Used_In_readme/Misc/Additional_Group2.png)
 
 # Conclusion
 
