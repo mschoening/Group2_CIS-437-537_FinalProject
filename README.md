@@ -68,7 +68,7 @@ The second group we tested was done in an effort to get more consistency than th
 
 In both groups we used a simple percent error analysis on the data gathered in order to determine the percent improvement ConWeave has in reducing FCT Slowdowns over the other algorithms tested. These are the same calculations done by the original authors and it's a good statistical analysis for the data we are trying to show.
 
-**Directions to running the simulations**
+**Directions for running the simulations**
 
 1.  In the terminal CD into the working directory:
 ``` shell
