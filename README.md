@@ -432,3 +432,13 @@ List of files we modified or added to the original work in order to reproduce th
 > [TestGroup2_Pct_Error spreadsheet](Results/Pct_Error_Spreadsheets/TestGroup2_Pct_Error.xlsx): The spreadsheet used to conduct the percent error analysis for group 2 of testing. It includes calculations for the original figures as well as the additional figures generated from 10 percent to 100 percent network loads and split up by traffic generation times of 0.1 seconds and 0.5 seconds.  
 
 > [old_data folder](Results/old_data): Folder containing any old data that was generated before the first test group. None of this data is used in any of the analysis sections.
+
+# References
+Cha HwanSong, Xin Zhe Khooi, Raj Joshi, Inho Choi, Jialin Li, Mun Choon
+Chan. 2023. Network Load Balancing with In-network Reordering Support
+for RDMA. In ACM SIGCOMM2023 Conference (ACM SIGCOMM ’23), Sep
+tember 10–14, 2023, New York, NY, USA. ACM, New York, NY, USA, 16 pages.
+https://doi.org/10.1145/3603269.3604849
+
+Original Github repository:
+https://github.com/conweave-project/conweave-ns3 
